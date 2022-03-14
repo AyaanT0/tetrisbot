@@ -437,7 +437,7 @@ async def on_message(message):
 
 
     if message.content.lower().startswith(">invite"):
-        await message.channel.send("https://discord.com/oauth2/authorize?client_id=951289283661156393&scope=bot&permissions=11264")
+        await message.channel.send("https://discord.com/oauth2/authorize?client_id=951289283661156393&scope=bot&permissions=11328")
 
 
     if message.content.lower().startswith(">leaderboard"):
